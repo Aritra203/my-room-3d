@@ -6,6 +6,11 @@
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
     "prod": "git switch prod; git merge main; git push; git switch main"
   },
+  {
+  "scripts": {
+    "build": "vite build"
+  }
+},
   "dependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
