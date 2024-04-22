@@ -2,6 +2,7 @@
   "repository": "#",
   "license": "UNLICENSED",
   "scripts": {
+    "build": "vite build"
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
     "prod": "git switch prod; git merge main; git push; git switch main"
