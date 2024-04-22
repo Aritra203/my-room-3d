@@ -73,7 +73,7 @@ export default class World
     {
         this.pcScreen = new Screen(
             this.resources.items.pcScreenModel.scene.children[0],
-            '/assets/video-laptop-1st.mp4'
+            '/assets/laptop-1-pc.mp4'
         )
         this.macScreen = new Screen(
             this.resources.items.macScreenModel.scene.children[0],
